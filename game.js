@@ -7,9 +7,9 @@ const $box = document.getElementById("text-box");
 const dialogues = [
   { text: "こんにちは、ノベルゲームの世界へようこそ！", image: "character1.png" },
   { text: "クリックでセリフが進む仕組みを作っている。", image: "character1.png" },
-  { text: "ここで選択肢を出してみる。", image: "character2.png" },
-  { text: "「はい」を選んだ。次のセリフへ。", image: "character1.png" },
-  { text: "「いいえ」を選んだ。別ルートへ。", image: "character2.png" },
+  { text: "で、勝負に負けた時の約束は……覚えてるよね？", image: "character2.png" },
+  { text: "男に二言はない", image: "character1.png" },
+  { text: "何のことか分からないな", image: "character2.png" },
   { text: "ここまでで最低限のノベルゲームが動く。", image: "character1.png" }
 ];
 
@@ -18,8 +18,8 @@ const choiceEvents = [
   {
     dialogueIndex: 2,
     choices: [
-      { text: "はい", nextIndex: 3 },
-      { text: "いいえ", nextIndex: 4 }
+      { text: "男に二言はない", nextIndex: 3 },
+      { text: "何のことか分からないな", nextIndex: 4 }
     ]
   }
 ];
